@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fleet Funnies · the daily comic starring Boyd's Grok Bots</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="mast">
+  <div class="mast-inner">
+    <div class="brand">
+      <div class="kicker">The Bot Island Gazette presents</div>
+      <h1>Fleet Funnies</h1>
+      <div class="tagline">A daily comic starring Boyd's Grok Bots. Every gag is a real logged event, with its source printed under the panel.</div>
+    </div>
+    <div class="actions">
+      <button id="btnPage" class="tab on" title="All strips, newspaper style">🗞️ Comics page</button>
+      <button id="btnSingle" class="tab" title="One strip at a time">🔎 One strip</button>
+      <a id="btnPrint" class="btn print" href="dist/fleet-funnies-print.pdf" target="_blank">🖨️ Print the funnies (PDF)</a>
+    </div>
+  </div>
+  <nav class="archive" id="archive" aria-label="Archive"></nav>
+</header>
+
+<main id="main">
+  <section id="single" class="single" hidden>
+    <div class="pager">
+      <button id="prev" class="btn">◀ Older</button>
+      <div class="pager-title"><div id="sDate" class="s-date"></div><div id="sTitle" class="s-title"></div></div>
+      <button id="next" class="btn">Newer ▶</button>
+    </div>
+    <div id="singleStrip"></div>
+  </section>
+  <section id="page" class="page"></section>
+</main>
+<footer class="foot">
+  <div id="meta"></div>
+  <div>Drawn by TokenMax from Bot Island's data (read-only). Nothing was sent or printed. Keys: ← → to page through strips.</div>
+</footer>
+<div class="toast" id="toast"></div>
+<script src="fonts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

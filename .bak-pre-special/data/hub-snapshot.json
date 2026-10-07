@@ -1,0 +1,1503 @@
+{
+ "generatedAt": "2026-10-07T16:57:35-04:00",
+ "projects": [
+  {
+   "name": "bot-island",
+   "title": "\ud83c\udfdd\ufe0f Bot Island",
+   "pitch": "A living map of Boyd's Grok Bot fleet.",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/bot-island-snapshot.html"
+   ],
+   "snapshotBytes": 727537,
+   "port": 4747,
+   "status": {
+    "live": true,
+    "path": "/api/health",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/closeup-hq.png",
+    "screenshots/detail-jim.png",
+    "screenshots/doctor-weekly-report.png",
+    "screenshots/doctor.png",
+    "screenshots/gameday.png",
+    "screenshots/health.png",
+    "screenshots/live.png",
+    "screenshots/network.png",
+    "screenshots/night.png",
+    "screenshots/replay-oct06-outputs.png",
+    "screenshots/replay-sep11-messages.png",
+    "screenshots/replay-sep14-morning.png",
+    "screenshots/shipit.png",
+    "screenshots/timelapse-2026-09-14.gif",
+    "screenshots/timelapse-2026-09-14.mp4",
+    "screenshots/zoom-launch.png"
+   ],
+   "cover": "screenshots/live.png",
+   "videos": [
+    "screenshots/timelapse-2026-09-14.mp4"
+   ],
+   "counts": {
+    "files": 38,
+    "codeFiles": 14,
+    "loc": 2712,
+    "screenshots": 16,
+    "tests": 2,
+    "bytes": 15626139
+   },
+   "tests": [
+    "tests/run.sh",
+    "tests/smoke.mjs"
+   ],
+   "firstMtime": "2026-10-07T15:33:03-04:00",
+   "lastMtime": "2026-10-07T16:15:46-04:00"
+  },
+  {
+   "name": "llm-box-advisor",
+   "title": "\ud83d\udda5\ufe0f Local LLM Box Advisor",
+   "pitch": "Could Boyd run his Grok Bot fleet, or parts of it, on his own hardware, and what would it take?",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/llm-box-advisor-snapshot.html"
+   ],
+   "snapshotBytes": 99513,
+   "port": 4949,
+   "status": {
+    "live": true,
+    "path": "/api/health",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/01-overview.png",
+    "screenshots/02-workload.png",
+    "screenshots/03-sizing.png",
+    "screenshots/04-hardware.png",
+    "screenshots/05-cost.png",
+    "screenshots/06-matrix.png",
+    "screenshots/07-kpd.png",
+    "screenshots/08-sources.png",
+    "screenshots/09-sizing-gptoss120b.png",
+    "screenshots/10-cost-strix.png"
+   ],
+   "cover": "screenshots/01-overview.png",
+   "videos": [],
+   "counts": {
+    "files": 23,
+    "codeFiles": 8,
+    "loc": 821,
+    "screenshots": 10,
+    "tests": 0,
+    "bytes": 3735326
+   },
+   "tests": [],
+   "firstMtime": "2026-10-07T16:18:39-04:00",
+   "lastMtime": "2026-10-07T16:57:28-04:00"
+  },
+  {
+   "name": "boyd-wall",
+   "title": "\ud83d\udef0\ufe0f Boyd Wall: mission control for a TV or second monitor",
+   "pitch": "A 1920\u00d71080 dark \"mission control\" dashboard for Boyd: SpaceX/Starship/Starlink launches with live T-minus countdowns, a Sports Desk for the Ravens, Terps, Chelsea and Orioles, Millersville weather with the week ahead, and a fleet strip showing every Grok Bot plus the TokenMax fuel gauge.",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/boyd-wall-snapshot.html"
+   ],
+   "snapshotBytes": 1672572,
+   "port": 4848,
+   "status": {
+    "live": true,
+    "path": "/api/health",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/ambient.png",
+    "screenshots/gameday-preview.png",
+    "screenshots/launch-imminent.png",
+    "screenshots/outage.png",
+    "screenshots/snapshot-offline.png",
+    "screenshots/team-chelsea.png",
+    "screenshots/team-orioles.png",
+    "screenshots/team-ravens.png",
+    "screenshots/team-terps.png",
+    "screenshots/wall.png"
+   ],
+   "cover": "screenshots/wall.png",
+   "videos": [],
+   "counts": {
+    "files": 64,
+    "codeFiles": 12,
+    "loc": 2202,
+    "screenshots": 10,
+    "tests": 3,
+    "bytes": 12897656
+   },
+   "tests": [
+    "tests/run.sh",
+    "tests/smoke.mjs",
+    "tests/test_collect.py"
+   ],
+   "firstMtime": "2026-10-07T16:19:34-04:00",
+   "lastMtime": "2026-10-07T16:56:35-04:00"
+  },
+  {
+   "name": "bookmark-atlas",
+   "title": "Bookmark Atlas",
+   "pitch": "An interactive dark-mode explorer of everything Boyd (@xristafer) bookmarked on X and everything his research bots saved about posts he follows.",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/bookmark-atlas-snapshot.html"
+   ],
+   "snapshotBytes": 500638,
+   "port": 4545,
+   "status": {
+    "live": true,
+    "path": "/",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/01-galaxy.png",
+    "screenshots/02-galaxy-zoom.png",
+    "screenshots/03-timeline.png",
+    "screenshots/04-authors.png",
+    "screenshots/05-cards.png",
+    "screenshots/06-cards-search.png",
+    "screenshots/07-rabbit-holes.png",
+    "screenshots/08-this-month.png",
+    "screenshots/09-galaxy-all.png",
+    "screenshots/10-post-drawer.png",
+    "screenshots/11-timeline-all.png",
+    "screenshots/12-constellation.png",
+    "screenshots/13-constellation-all.png"
+   ],
+   "cover": "screenshots/01-galaxy.png",
+   "videos": [],
+   "counts": {
+    "files": 29,
+    "codeFiles": 11,
+    "loc": 1344,
+    "screenshots": 13,
+    "tests": 1,
+    "bytes": 6127349
+   },
+   "tests": [
+    "tests/smoke_test.py"
+   ],
+   "firstMtime": "2026-10-07T16:29:04-04:00",
+   "lastMtime": "2026-10-07T16:34:18-04:00"
+  },
+  {
+   "name": "fridge-board",
+   "title": "Boyd Fridge Board \ud83e\uddf2",
+   "pitch": "A warm, kid-friendly progress board for Char (8th grade) and Vic (6th grade), sized for a kitchen tablet (1280\u00d7800 landscape).",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/fridge-board-snapshot.html"
+   ],
+   "snapshotBytes": 61706,
+   "port": 4343,
+   "status": {
+    "live": true,
+    "path": "/",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/01-home.png",
+    "screenshots/02-char.png",
+    "screenshots/03-vic.png",
+    "screenshots/04-hspt.png",
+    "screenshots/05-grownups.png",
+    "screenshots/06-offline-snapshot.png"
+   ],
+   "cover": "screenshots/01-home.png",
+   "videos": [],
+   "counts": {
+    "files": 23,
+    "codeFiles": 11,
+    "loc": 1266,
+    "screenshots": 6,
+    "tests": 2,
+    "bytes": 2096583
+   },
+   "tests": [
+    "tests/interaction_test.mjs",
+    "tests/smoke_test.py"
+   ],
+   "firstMtime": "2026-10-07T16:29:41-04:00",
+   "lastMtime": "2026-10-07T16:57:28-04:00"
+  },
+  {
+   "name": "chopsticks",
+   "title": "Chopsticks",
+   "pitch": "Fly a Super Heavy booster home through gusting winds and set its catch pins down on the tower's chopsticks: slow, upright and centred.",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/chopsticks-snapshot.html"
+   ],
+   "snapshotBytes": 554993,
+   "port": 4242,
+   "status": {
+    "live": true,
+    "path": "/api/health",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/01-attract-catch.png",
+    "screenshots/02-menu-attract.png",
+    "screenshots/03-glide-grid-fins.png",
+    "screenshots/04-onboard-landing-burn.png",
+    "screenshots/05-tower-cam-final-approach.png",
+    "screenshots/06-result.png",
+    "screenshots/07-slowmo-replay.png",
+    "screenshots/08-ship-flip.png",
+    "screenshots/09-ship-splashdown-buoy-cam.png",
+    "screenshots/10-no-legs-crash.png",
+    "screenshots/gameplay.gif"
+   ],
+   "cover": "screenshots/01-attract-catch.png",
+   "videos": [],
+   "counts": {
+    "files": 42,
+    "codeFiles": 21,
+    "loc": 1411,
+    "screenshots": 11,
+    "tests": 3,
+    "bytes": 12815430
+   },
+   "tests": [
+    "data/smoke.log",
+    "tests/run.sh",
+    "tests/smoke.mjs"
+   ],
+   "firstMtime": "2026-10-07T16:29:49-04:00",
+   "lastMtime": "2026-10-07T16:57:29-04:00"
+  },
+  {
+   "name": "agent-playbook",
+   "title": "Agent Playbook",
+   "pitch": "An interactive field guide.",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/agent-playbook-snapshot.html"
+   ],
+   "snapshotBytes": 72090,
+   "port": 4141,
+   "status": {
+    "live": true,
+    "path": "/",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/01-hero-radar.png",
+    "screenshots/02-front-door.png",
+    "screenshots/03-specialists.png",
+    "screenshots/04-memory.png",
+    "screenshots/05-listeners.png",
+    "screenshots/06-arena.png",
+    "screenshots/07-cost.png",
+    "screenshots/08-briefs.png",
+    "screenshots/09-upgrades.png",
+    "screenshots/10-roster.png"
+   ],
+   "cover": "screenshots/01-hero-radar.png",
+   "videos": [],
+   "counts": {
+    "files": 24,
+    "codeFiles": 11,
+    "loc": 939,
+    "screenshots": 10,
+    "tests": 1,
+    "bytes": 2360249
+   },
+   "tests": [
+    "tests/smoke_test.py"
+   ],
+   "firstMtime": "2026-10-07T16:37:02-04:00",
+   "lastMtime": "2026-10-07T16:42:10-04:00"
+  },
+  {
+   "name": "family-week",
+   "title": "Family Week: the Boyds' kitchen-display week planner",
+   "pitch": "Live:",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/family-week-snapshot.html"
+   ],
+   "snapshotBytes": 541063,
+   "port": 4847,
+   "status": {
+    "live": true,
+    "path": "/api/health",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/ambient.png",
+    "screenshots/conflict-day-oct15.png",
+    "screenshots/empty.png",
+    "screenshots/fortnight-14day.png",
+    "screenshots/kiosk.png",
+    "screenshots/outage.png",
+    "screenshots/snapshot-offline.png",
+    "screenshots/timeline-tournament-weekend.png",
+    "screenshots/timeline.png",
+    "screenshots/tonight-late.png",
+    "screenshots/week.png"
+   ],
+   "cover": "screenshots/ambient.png",
+   "videos": [],
+   "counts": {
+    "files": 35,
+    "codeFiles": 15,
+    "loc": 1842,
+    "screenshots": 11,
+    "tests": 5,
+    "bytes": 6430905
+   },
+   "tests": [
+    "tests/cdp.mjs",
+    "tests/run.sh",
+    "tests/smoke.mjs",
+    "tests/test_ingest.py",
+    "tests/test_planner.py"
+   ],
+   "firstMtime": "2026-10-07T16:37:21-04:00",
+   "lastMtime": "2026-10-07T16:55:52-04:00"
+  },
+  {
+   "name": "times-archive",
+   "title": "Times Archive: The Boyd Family Times, bound and shelved",
+   "pitch": "A searchable archive of every saved edition of The Boyd Family Times, Boyd's daily household newspaper bot.",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/times-archive-snapshot.html"
+   ],
+   "snapshotBytes": 23958223,
+   "port": 4645,
+   "status": {
+    "live": true,
+    "path": "/",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/01-front-page.png",
+    "screenshots/02-newsstand.png",
+    "screenshots/03-reader.png",
+    "screenshots/04-reader-text-search.png",
+    "screenshots/05-search.png",
+    "screenshots/06-trends.png",
+    "screenshots/07-print-log.png",
+    "screenshots/08-sources.png",
+    "screenshots/09-page-flip.png"
+   ],
+   "cover": "screenshots/01-front-page.png",
+   "videos": [],
+   "counts": {
+    "files": 305,
+    "codeFiles": 11,
+    "loc": 1019,
+    "screenshots": 9,
+    "tests": 2,
+    "bytes": 80217297
+   },
+   "tests": [
+    "tests/flip_check.mjs",
+    "tests/smoke_test.py"
+   ],
+   "firstMtime": "2026-10-07T16:42:39-04:00",
+   "lastMtime": "2026-10-07T16:56:59-04:00"
+  },
+  {
+   "name": "fleet-funnies",
+   "title": "Fleet Funnies",
+   "pitch": "A daily comic strip starring Boyd's Grok Bots.",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/fleet-funnies-snapshot.html"
+   ],
+   "snapshotBytes": 729264,
+   "port": 4142,
+   "status": {
+    "live": true,
+    "path": "/api/health",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/01-comics-page.png",
+    "screenshots/02-today-build-night.png",
+    "screenshots/03-sunday-special.png",
+    "screenshots/04-brief-sleeps-in.png",
+    "screenshots/05-stop-the-presses.png",
+    "screenshots/06-pdf-only-era.png",
+    "screenshots/07-comics-page-long.png"
+   ],
+   "cover": "screenshots/01-comics-page.png",
+   "videos": [],
+   "counts": {
+    "files": 151,
+    "codeFiles": 15,
+    "loc": 1656,
+    "screenshots": 7,
+    "tests": 1,
+    "bytes": 17610430
+   },
+   "tests": [
+    "tests/smoke_test.py"
+   ],
+   "firstMtime": "2026-10-07T16:44:27-04:00",
+   "lastMtime": "2026-10-07T16:57:29-04:00"
+  },
+  {
+   "name": "ai-ops-atlas",
+   "title": "\ud83d\uddfa\ufe0f AI Ops Atlas: KPD Law Group internal operations",
+   "pitch": "Where can AI safely take busywork off KPD's plate, and in what order?",
+   "ready": true,
+   "hasReadme": true,
+   "snapshots": [
+    "dist/ai-ops-atlas-snapshot.html"
+   ],
+   "snapshotBytes": 107719,
+   "port": 4041,
+   "status": {
+    "live": true,
+    "path": "/api/health",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/01-overview.png",
+    "screenshots/02-opportunities.png",
+    "screenshots/03-detail-docketing.png",
+    "screenshots/04-matrix.png",
+    "screenshots/05-roadmap.png",
+    "screenshots/06-ethics.png",
+    "screenshots/07-evidence.png",
+    "screenshots/08-brief.png",
+    "screenshots/09-sources.png",
+    "screenshots/10-pilot-kit.png"
+   ],
+   "cover": "screenshots/01-overview.png",
+   "videos": [],
+   "counts": {
+    "files": 35,
+    "codeFiles": 9,
+    "loc": 869,
+    "screenshots": 10,
+    "tests": 1,
+    "bytes": 4101241
+   },
+   "tests": [
+    "tests/smoke_test.py"
+   ],
+   "firstMtime": "2026-10-07T16:44:33-04:00",
+   "lastMtime": "2026-10-07T16:57:27-04:00"
+  },
+  {
+   "name": "explainer-studio",
+   "title": "Explainer Studio",
+   "pitch": "Turns Jim's Interest Journal entries (/workspace/ijresearch.md, ijx.md, ijcontent.md, ijbookmarks.md) into short animated explainer videos: 1080p30 H.264 MP4, 45\u201375 s, with a title card, 4\u20136 animated scenes (kinetic type, vector diagrams, charts), burned-in captions, a local TTS voiceover, a soft generated music bed, and a sources end card.",
+   "ready": false,
+   "hasReadme": true,
+   "snapshots": [],
+   "snapshotBytes": 0,
+   "port": null,
+   "status": {
+    "live": false,
+    "why": "no port found"
+   },
+   "screenshots": [
+    "screenshots/agents-go-to-work-oct-6_contact.png",
+    "screenshots/ravens-lamar-line-swing_contact.png",
+    "screenshots/spacexai-to-spacexsi-rename_contact.png",
+    "screenshots/starmind-1m-ai-satellites_contact.png",
+    "screenshots/starship-flight-14-to-orbit_contact.png"
+   ],
+   "cover": "screenshots/agents-go-to-work-oct-6_contact.png",
+   "videos": [
+    "out/agents-go-to-work-oct-6.mp4",
+    "out/ravens-lamar-line-swing.mp4",
+    "out/spacexai-to-spacexsi-rename.mp4",
+    "out/starmind-1m-ai-satellites.mp4",
+    "out/starship-flight-14-to-orbit.mp4"
+   ],
+   "counts": {
+    "files": 164,
+    "codeFiles": 8,
+    "loc": 1977,
+    "screenshots": 5,
+    "tests": 0,
+    "bytes": 486279362
+   },
+   "tests": [],
+   "firstMtime": "2026-10-07T16:17:37-04:00",
+   "lastMtime": "2026-10-07T16:55:11-04:00"
+  },
+  {
+   "name": "hspt-quest",
+   "title": "hspt-quest",
+   "pitch": null,
+   "ready": false,
+   "hasReadme": false,
+   "snapshots": [],
+   "snapshotBytes": 0,
+   "port": 4444,
+   "status": {
+    "live": true,
+    "path": "/",
+    "code": 200
+   },
+   "screenshots": [
+    "screenshots/desktop-01-home.png",
+    "screenshots/desktop-02-area-drills.png",
+    "screenshots/desktop-03-question.png",
+    "screenshots/desktop-04-correct-cheer.png",
+    "screenshots/desktop-05-not-yet.png",
+    "screenshots/desktop-06-sprint-picker.png",
+    "screenshots/desktop-07-timed-sprint.png",
+    "screenshots/desktop-08-results.png",
+    "screenshots/phone-01-home.png",
+    "screenshots/phone-02-area-drills.png",
+    "screenshots/phone-03-question.png",
+    "screenshots/phone-04-correct-cheer.png",
+    "screenshots/phone-05-not-yet.png",
+    "screenshots/phone-06-sprint-picker.png",
+    "screenshots/phone-07-timed-sprint.png"
+   ],
+   "cover": "screenshots/desktop-01-home.png",
+   "videos": [],
+   "counts": {
+    "files": 31,
+    "codeFiles": 12,
+    "loc": 1223,
+    "screenshots": 15,
+    "tests": 5,
+    "bytes": 4525359
+   },
+   "tests": [
+    "tests/cdp.mjs",
+    "tests/e2e.mjs",
+    "tests/independent_key.py",
+    "tests/play.mjs",
+    "tests/screens.mjs"
+   ],
+   "firstMtime": "2026-10-07T16:43:00-04:00",
+   "lastMtime": "2026-10-07T16:57:30-04:00"
+  },
+  {
+   "name": "pods-radio",
+   "title": "pods-radio",
+   "pitch": null,
+   "ready": false,
+   "hasReadme": false,
+   "snapshots": [],
+   "snapshotBytes": 0,
+   "port": 4849,
+   "status": {
+    "live": false,
+    "why": "URLError"
+   },
+   "screenshots": [],
+   "cover": null,
+   "videos": [],
+   "counts": {
+    "files": 40,
+    "codeFiles": 6,
+    "loc": 894,
+    "screenshots": 0,
+    "tests": 0,
+    "bytes": 246153146
+   },
+   "tests": [],
+   "firstMtime": "2026-10-07T16:49:58-04:00",
+   "lastMtime": "2026-10-07T16:57:32-04:00"
+  },
+  {
+   "name": "trailer",
+   "title": "trailer",
+   "pitch": null,
+   "ready": false,
+   "hasReadme": false,
+   "snapshots": [],
+   "snapshotBytes": 0,
+   "port": null,
+   "status": {
+    "live": false,
+    "why": "no port found"
+   },
+   "screenshots": [],
+   "cover": null,
+   "videos": [
+    "build/p00_bot-island/segment.mp4",
+    "build/p00_bot-island/shot0.mp4",
+    "build/p00_bot-island/shot1.mp4",
+    "build/p00_bot-island/shot2.mp4",
+    "build/p01_llm-box-advisor/segment.mp4",
+    "build/p01_llm-box-advisor/shot0.mp4",
+    "build/p01_llm-box-advisor/shot1.mp4",
+    "build/p01_llm-box-advisor/shot2.mp4",
+    "build/p02_bookmark-atlas/segment.mp4",
+    "build/p02_bookmark-atlas/shot0.mp4",
+    "build/p02_bookmark-atlas/shot1.mp4",
+    "build/p02_bookmark-atlas/shot2.mp4",
+    "build/p03_boyd-wall/segment.mp4",
+    "build/p03_boyd-wall/shot0.mp4",
+    "build/p03_boyd-wall/shot1.mp4",
+    "build/p03_boyd-wall/shot2.mp4",
+    "build/seg00_title.mp4"
+   ],
+   "counts": {
+    "files": 41,
+    "codeFiles": 2,
+    "loc": 547,
+    "screenshots": 0,
+    "tests": 0,
+    "bytes": 89962706
+   },
+   "tests": [],
+   "firstMtime": "2026-10-07T16:55:28-04:00",
+   "lastMtime": "2026-10-07T16:57:35-04:00"
+  }
+ ],
+ "story": {
+  "start": "2026-10-07T15:00:00-04:00",
+  "end": "2026-10-07T19:00:00-04:00",
+  "now": "2026-10-07T16:57:35-04:00",
+  "bucketMinutes": 5,
+  "lanes": [
+   {
+    "project": "bot-island",
+    "buckets": {
+     "6": 1,
+     "13": 4,
+     "11": 5,
+     "15": 4,
+     "12": 5,
+     "7": 1,
+     "8": 1,
+     "14": 16,
+     "10": 1
+    },
+    "first": "2026-10-07T15:33:03-04:00",
+    "last": "2026-10-07T16:15:46-04:00",
+    "counts": {
+     "files": 38,
+     "codeFiles": 14,
+     "loc": 2712,
+     "screenshots": 16,
+     "tests": 2,
+     "bytes": 15626139
+    }
+   },
+   {
+    "project": "llm-box-advisor",
+    "buckets": {
+     "15": 4,
+     "16": 18,
+     "23": 1
+    },
+    "first": "2026-10-07T16:18:39-04:00",
+    "last": "2026-10-07T16:57:35-04:00",
+    "counts": {
+     "files": 23,
+     "codeFiles": 8,
+     "loc": 821,
+     "screenshots": 10,
+     "tests": 0,
+     "bytes": 3735380
+    }
+   },
+   {
+    "project": "boyd-wall",
+    "buckets": {
+     "16": 7,
+     "18": 24,
+     "17": 9,
+     "15": 14,
+     "22": 8,
+     "23": 2
+    },
+    "first": "2026-10-07T16:19:34-04:00",
+    "last": "2026-10-07T16:57:35-04:00",
+    "counts": {
+     "files": 65,
+     "codeFiles": 12,
+     "loc": 2202,
+     "screenshots": 10,
+     "tests": 3,
+     "bytes": 13192886
+    }
+   },
+   {
+    "project": "bookmark-atlas",
+    "buckets": {
+     "18": 27,
+     "17": 2
+    },
+    "first": "2026-10-07T16:29:04-04:00",
+    "last": "2026-10-07T16:34:18-04:00",
+    "counts": {
+     "files": 29,
+     "codeFiles": 11,
+     "loc": 1344,
+     "screenshots": 13,
+     "tests": 1,
+     "bytes": 6127349
+    }
+   },
+   {
+    "project": "fridge-board",
+    "buckets": {
+     "19": 15,
+     "18": 5,
+     "17": 1,
+     "23": 2
+    },
+    "first": "2026-10-07T16:29:41-04:00",
+    "last": "2026-10-07T16:57:35-04:00",
+    "counts": {
+     "files": 23,
+     "codeFiles": 11,
+     "loc": 1266,
+     "screenshots": 6,
+     "tests": 2,
+     "bytes": 2096717
+    }
+   },
+   {
+    "project": "chopsticks",
+    "buckets": {
+     "17": 2,
+     "19": 9,
+     "22": 8,
+     "20": 5,
+     "23": 13,
+     "18": 3,
+     "21": 2
+    },
+    "first": "2026-10-07T16:29:49-04:00",
+    "last": "2026-10-07T16:57:29-04:00",
+    "counts": {
+     "files": 42,
+     "codeFiles": 21,
+     "loc": 1411,
+     "screenshots": 11,
+     "tests": 3,
+     "bytes": 12815430
+    }
+   },
+   {
+    "project": "agent-playbook",
+    "buckets": {
+     "20": 17,
+     "19": 7
+    },
+    "first": "2026-10-07T16:37:02-04:00",
+    "last": "2026-10-07T16:42:10-04:00",
+    "counts": {
+     "files": 24,
+     "codeFiles": 11,
+     "loc": 939,
+     "screenshots": 10,
+     "tests": 1,
+     "bytes": 2360249
+    }
+   },
+   {
+    "project": "family-week",
+    "buckets": {
+     "21": 22,
+     "20": 7,
+     "19": 5,
+     "23": 1
+    },
+    "first": "2026-10-07T16:37:21-04:00",
+    "last": "2026-10-07T16:55:52-04:00",
+    "counts": {
+     "files": 35,
+     "codeFiles": 15,
+     "loc": 1842,
+     "screenshots": 11,
+     "tests": 5,
+     "bytes": 6430905
+    }
+   },
+   {
+    "project": "times-archive",
+    "buckets": {
+     "21": 21,
+     "22": 1,
+     "20": 281,
+     "23": 2
+    },
+    "first": "2026-10-07T16:42:39-04:00",
+    "last": "2026-10-07T16:56:59-04:00",
+    "counts": {
+     "files": 305,
+     "codeFiles": 11,
+     "loc": 1019,
+     "screenshots": 9,
+     "tests": 2,
+     "bytes": 80217297
+    }
+   },
+   {
+    "project": "fleet-funnies",
+    "buckets": {
+     "22": 27,
+     "21": 9,
+     "23": 112,
+     "20": 3
+    },
+    "first": "2026-10-07T16:44:27-04:00",
+    "last": "2026-10-07T16:57:29-04:00",
+    "counts": {
+     "files": 151,
+     "codeFiles": 15,
+     "loc": 1656,
+     "screenshots": 7,
+     "tests": 1,
+     "bytes": 17610430
+    }
+   },
+   {
+    "project": "ai-ops-atlas",
+    "buckets": {
+     "21": 8,
+     "20": 2,
+     "22": 24,
+     "23": 1
+    },
+    "first": "2026-10-07T16:44:33-04:00",
+    "last": "2026-10-07T16:57:35-04:00",
+    "counts": {
+     "files": 35,
+     "codeFiles": 9,
+     "loc": 869,
+     "screenshots": 10,
+     "tests": 1,
+     "bytes": 4101295
+    }
+   },
+   {
+    "project": "hub",
+    "buckets": {
+     "17": 33,
+     "16": 14,
+     "21": 3,
+     "15": 2,
+     "14": 14,
+     "13": 2,
+     "23": 1
+    },
+    "first": "2026-10-07T16:09:08-04:00",
+    "last": "2026-10-07T16:57:28-04:00",
+    "counts": {
+     "files": 69,
+     "codeFiles": 12,
+     "loc": 852,
+     "screenshots": 4,
+     "tests": 2,
+     "bytes": 43233227
+    }
+   },
+   {
+    "project": "explainer-studio",
+    "buckets": {
+     "20": 44,
+     "17": 15,
+     "18": 34,
+     "22": 36,
+     "21": 22,
+     "23": 1,
+     "19": 5,
+     "16": 3,
+     "15": 4
+    },
+    "first": "2026-10-07T16:17:37-04:00",
+    "last": "2026-10-07T16:55:11-04:00",
+    "counts": {
+     "files": 164,
+     "codeFiles": 8,
+     "loc": 1977,
+     "screenshots": 5,
+     "tests": 0,
+     "bytes": 486279362
+    }
+   },
+   {
+    "project": "hspt-quest",
+    "buckets": {
+     "21": 7,
+     "20": 4,
+     "22": 1,
+     "23": 19
+    },
+    "first": "2026-10-07T16:43:00-04:00",
+    "last": "2026-10-07T16:57:35-04:00",
+    "counts": {
+     "files": 31,
+     "codeFiles": 12,
+     "loc": 1223,
+     "screenshots": 15,
+     "tests": 5,
+     "bytes": 4525487
+    }
+   },
+   {
+    "project": "pods-radio",
+    "buckets": {
+     "23": 35,
+     "22": 3,
+     "21": 2
+    },
+    "first": "2026-10-07T16:49:58-04:00",
+    "last": "2026-10-07T16:57:32-04:00",
+    "counts": {
+     "files": 40,
+     "codeFiles": 6,
+     "loc": 894,
+     "screenshots": 0,
+     "tests": 0,
+     "bytes": 246153146
+    }
+   },
+   {
+    "project": "trailer",
+    "buckets": {
+     "23": 41
+    },
+    "first": "2026-10-07T16:55:28-04:00",
+    "last": "2026-10-07T16:57:35-04:00",
+    "counts": {
+     "files": 41,
+     "codeFiles": 2,
+     "loc": 547,
+     "screenshots": 0,
+     "tests": 0,
+     "bytes": 89962706
+    }
+   }
+  ],
+  "milestones": [
+   {
+    "project": "tokenmax",
+    "at": "2026-10-07T15:36:37-04:00",
+    "what": "SHORTLIST.md last updated"
+   },
+   {
+    "project": "bot-island",
+    "at": "2026-10-07T16:09:08-04:00",
+    "what": "earliest surviving screenshot (16 total)"
+   },
+   {
+    "project": "bot-island",
+    "at": "2026-10-07T16:15:38-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "hub",
+    "at": "2026-10-07T16:15:38-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "bot-island",
+    "at": "2026-10-07T16:15:46-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "llm-box-advisor",
+    "at": "2026-10-07T16:23:04-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "hub",
+    "at": "2026-10-07T16:23:04-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "llm-box-advisor",
+    "at": "2026-10-07T16:23:05-04:00",
+    "what": "earliest surviving screenshot (10 total)"
+   },
+   {
+    "project": "llm-box-advisor",
+    "at": "2026-10-07T16:23:28-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "hub",
+    "at": "2026-10-07T16:26:03-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "hub",
+    "at": "2026-10-07T16:26:54-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "hub",
+    "at": "2026-10-07T16:28:19-04:00",
+    "what": "earliest surviving screenshot (4 total)"
+   },
+   {
+    "project": "bookmark-atlas",
+    "at": "2026-10-07T16:33:44-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "bookmark-atlas",
+    "at": "2026-10-07T16:33:50-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "bookmark-atlas",
+    "at": "2026-10-07T16:33:53-04:00",
+    "what": "earliest surviving screenshot (13 total)"
+   },
+   {
+    "project": "boyd-wall",
+    "at": "2026-10-07T16:34:12-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "boyd-wall",
+    "at": "2026-10-07T16:34:16-04:00",
+    "what": "earliest surviving screenshot (10 total)"
+   },
+   {
+    "project": "boyd-wall",
+    "at": "2026-10-07T16:34:39-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "explainer-studio",
+    "at": "2026-10-07T16:38:22-04:00",
+    "what": "earliest surviving screenshot (5 total)"
+   },
+   {
+    "project": "fridge-board",
+    "at": "2026-10-07T16:38:46-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "fridge-board",
+    "at": "2026-10-07T16:38:46-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "fridge-board",
+    "at": "2026-10-07T16:38:47-04:00",
+    "what": "earliest surviving screenshot (6 total)"
+   },
+   {
+    "project": "tokenmax",
+    "at": "2026-10-07T16:40:20-04:00",
+    "what": "usage.json last updated"
+   },
+   {
+    "project": "agent-playbook",
+    "at": "2026-10-07T16:41:25-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "agent-playbook",
+    "at": "2026-10-07T16:41:45-04:00",
+    "what": "earliest surviving screenshot (10 total)"
+   },
+   {
+    "project": "agent-playbook",
+    "at": "2026-10-07T16:42:10-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "explainer-studio",
+    "at": "2026-10-07T16:43:47-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "hub",
+    "at": "2026-10-07T16:46:26-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "chopsticks",
+    "at": "2026-10-07T16:46:33-04:00",
+    "what": "earliest surviving screenshot (11 total)"
+   },
+   {
+    "project": "family-week",
+    "at": "2026-10-07T16:46:41-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "family-week",
+    "at": "2026-10-07T16:47:06-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "family-week",
+    "at": "2026-10-07T16:47:09-04:00",
+    "what": "earliest surviving screenshot (11 total)"
+   },
+   {
+    "project": "times-archive",
+    "at": "2026-10-07T16:48:49-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "times-archive",
+    "at": "2026-10-07T16:48:51-04:00",
+    "what": "earliest surviving screenshot (9 total)"
+   },
+   {
+    "project": "times-archive",
+    "at": "2026-10-07T16:51:25-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "ai-ops-atlas",
+    "at": "2026-10-07T16:51:25-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "ai-ops-atlas",
+    "at": "2026-10-07T16:51:27-04:00",
+    "what": "earliest surviving screenshot (10 total)"
+   },
+   {
+    "project": "ai-ops-atlas",
+    "at": "2026-10-07T16:52:26-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "chopsticks",
+    "at": "2026-10-07T16:53:26-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "chopsticks",
+    "at": "2026-10-07T16:53:38-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "fleet-funnies",
+    "at": "2026-10-07T16:55:23-04:00",
+    "what": "offline snapshot exported (last)"
+   },
+   {
+    "project": "fleet-funnies",
+    "at": "2026-10-07T16:55:46-04:00",
+    "what": "README written (last edit)"
+   },
+   {
+    "project": "fleet-funnies",
+    "at": "2026-10-07T16:55:48-04:00",
+    "what": "earliest surviving screenshot (7 total)"
+   },
+   {
+    "project": "hspt-quest",
+    "at": "2026-10-07T16:56:41-04:00",
+    "what": "earliest surviving screenshot (15 total)"
+   }
+  ],
+  "usage": {
+   "used_pct": 20,
+   "reset_date": "2026-10-08",
+   "checked_at": "2026-10-07T16:40-04:00",
+   "label": "Grok Bot weekly included usage",
+   "reset_at": null,
+   "source": "Cursor usage dashboard (read by TokenMax)"
+  },
+  "totals": {
+   "files": 1115,
+   "loc": 21574,
+   "screenshots": 137,
+   "tests": 28,
+   "codeFiles": 178
+  },
+  "note": "Times are file last-modified times (mtime). A file edited many times only shows its latest edit, so early work is under-represented."
+ },
+ "bots": [
+  {
+   "id": "784bedfc-74d6-45a0-a291-762ff05bb0c6",
+   "name": "Boyd Family Times",
+   "role": "",
+   "roleFrom": "description",
+   "oneLiner": "The Boyd Family Times \u2014 Boyd's daily household newspaper.",
+   "color": "#94a3b8",
+   "colorName": "gray",
+   "shape": "circle",
+   "schedule": [],
+   "paused": [],
+   "rhythm": [
+    "observed output ~5:16 AM (4 days)"
+   ],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=784bedfc-74d6-45a0-a291-762ff05bb0c6"
+  },
+  {
+   "id": "84ee99ac-e314-4642-a27b-89b81a591547",
+   "name": "Brief",
+   "role": "Morning Brief",
+   "roleFrom": "title",
+   "oneLiner": "You prepare Boyd's weekday morning attention brief.",
+   "color": "#3b82f6",
+   "colorName": "blue",
+   "shape": "wedge",
+   "schedule": [
+    "Morning attention brief: 8:00 AM weekdays"
+   ],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=84ee99ac-e314-4642-a27b-89b81a591547"
+  },
+  {
+   "id": "ff5dfcd2-09b9-49dd-952f-14893da73ab0",
+   "name": "Char Tutor",
+   "role": "8th Grade Tutor",
+   "roleFrom": "title",
+   "oneLiner": "Char Tutor \u2014 homework tutor for Charlotte Boyd only (8th grade, ~13).",
+   "color": "#8b5cf6",
+   "colorName": "violet",
+   "shape": "cloud",
+   "schedule": [
+    "Char weeknight homework check-in: 5:45 PM daily"
+   ],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=ff5dfcd2-09b9-49dd-952f-14893da73ab0"
+  },
+  {
+   "id": "759c205a-40a5-4e74-9620-3c04714824f4",
+   "name": "Dr. EggBot",
+   "role": "Bot Creator",
+   "roleFrom": "title",
+   "oneLiner": "Designs high-quality Grok Bots.",
+   "color": "#ef4444",
+   "colorName": "red",
+   "shape": "teardrop",
+   "schedule": [
+    "routine-healthcheck: 6:35 AM Mondays",
+    "transcript-healthcheck: 6:30 AM weekdays"
+   ],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=759c205a-40a5-4e74-9620-3c04714824f4"
+  },
+  {
+   "id": "d0afda46-7287-40c1-b934-70ab9225584e",
+   "name": "Dwight",
+   "role": "Code Monkey",
+   "roleFrom": "title",
+   "oneLiner": "Dwight, Boyd's software engineer.",
+   "color": "#eab308",
+   "colorName": "yellow",
+   "shape": "teardrop",
+   "schedule": [],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=d0afda46-7287-40c1-b934-70ab9225584e"
+  },
+  {
+   "id": "9abbfaf4-f401-4e70-8619-da598173399a",
+   "name": "Jim",
+   "role": "Interests",
+   "roleFrom": "title",
+   "oneLiner": "Boyd's interest and research specialist.",
+   "color": "#3b82f6",
+   "colorName": "blue",
+   "shape": "hex",
+   "schedule": [
+    "Bill Simmons Sunday 107 fifth pick: 11:00 AM & 3:00 PM Sundays",
+    "Daily podcast listen brief: 7:00 AM daily",
+    "Jim daily interest note: 8:00 PM daily"
+   ],
+   "paused": [],
+   "rhythm": [
+    "observed output ~8:16 PM (3 days)"
+   ],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=9abbfaf4-f401-4e70-8619-da598173399a"
+  },
+  {
+   "id": "3e3aaa23-1281-43d0-9cac-e38e22ba5be0",
+   "name": "Kelly",
+   "role": "Trends",
+   "roleFrom": "title",
+   "oneLiner": "Boyd's real-time web and X analyst.",
+   "color": "#eab308",
+   "colorName": "yellow",
+   "shape": "pebble",
+   "schedule": [],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=3e3aaa23-1281-43d0-9cac-e38e22ba5be0"
+  },
+  {
+   "id": "4feb1fc5-075b-4294-a694-3fa562e5785b",
+   "name": "Michael",
+   "role": "Chief of Staff",
+   "roleFrom": "title",
+   "oneLiner": "My Chief of Staff.",
+   "color": "#ef4444",
+   "colorName": "red",
+   "shape": "blob",
+   "schedule": [],
+   "paused": [
+    "Jim daily interest note",
+    "Morning attention brief"
+   ],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=4feb1fc5-075b-4294-a694-3fa562e5785b"
+  },
+  {
+   "id": "5ea76ec0-2e44-46be-993a-11bc6ba30958",
+   "name": "Oscar",
+   "role": "Finances",
+   "roleFrom": "title",
+   "oneLiner": "Boyd's finance specialist.",
+   "color": "#22c55e",
+   "colorName": "green",
+   "shape": "squircle",
+   "schedule": [
+    "Due-soon bills and money surprises: 8:45 AM weekdays",
+    "Watch for Kia Finance statement: 8:31 AM weekdays",
+    "Weekly household cash snapshot: 8:15 AM Mondays"
+   ],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=5ea76ec0-2e44-46be-993a-11bc6ba30958"
+  },
+  {
+   "id": "e1bfeb52-89c2-48fa-b6dd-b4dcf9ed54e1",
+   "name": "Pam",
+   "role": "Family Logistics",
+   "roleFrom": "title",
+   "oneLiner": "Boyd's family logistics specialist.",
+   "color": "#06b6d4",
+   "colorName": "cyan",
+   "shape": "tablet",
+   "schedule": [
+    "Weekday family calendar scan: 7:30 AM weekdays"
+   ],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=e1bfeb52-89c2-48fa-b6dd-b4dcf9ed54e1"
+  },
+  {
+   "id": "fd400f67-24e0-40fd-9d9f-fcdcb2969805",
+   "name": "Path",
+   "role": "High School Path",
+   "roleFrom": "title",
+   "oneLiner": "Path \u2014 Charlotte Boyd's high-school placement guide (8th grade \u2192 fall 2027).",
+   "color": "#94a3b8",
+   "colorName": "gray",
+   "shape": "circle",
+   "schedule": [],
+   "paused": [],
+   "rhythm": [
+    "observed output ~6:50 AM (4 days)"
+   ],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=fd400f67-24e0-40fd-9d9f-fcdcb2969805"
+  },
+  {
+   "id": "ed1121b7-dd17-4061-880f-70ebed7c8250",
+   "name": "Pods",
+   "role": "",
+   "roleFrom": "description",
+   "oneLiner": "Pods \u2014 Boyd's daily podcast/YouTube listen brief.",
+   "color": "#94a3b8",
+   "colorName": "gray",
+   "shape": "circle",
+   "schedule": [],
+   "paused": [],
+   "rhythm": [
+    "observed output ~6:48 AM (3 days)"
+   ],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=ed1121b7-dd17-4061-880f-70ebed7c8250"
+  },
+  {
+   "id": "6a33ea82-5497-43fa-a644-aebed89a6bf6",
+   "name": "Ryan",
+   "role": "Entrepreneur",
+   "roleFrom": "title",
+   "oneLiner": "Ryan \u2014 Boyd's Entrepreneur.",
+   "color": "#ef4444",
+   "colorName": "red",
+   "shape": "squircle",
+   "schedule": [
+    "Weekly idea digest: 7:00 AM Mondays"
+   ],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=6a33ea82-5497-43fa-a644-aebed89a6bf6"
+  },
+  {
+   "id": "b56dd939-08e7-4c0a-82af-140a51de11b4",
+   "name": "TokenMax",
+   "role": "",
+   "roleFrom": "description",
+   "oneLiner": "TokenMax, Boyd's use-it-or-lose-it builder.",
+   "color": "#d946ef",
+   "colorName": "magenta",
+   "shape": "sparkle",
+   "schedule": [],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=b56dd939-08e7-4c0a-82af-140a51de11b4"
+  },
+  {
+   "id": "7e4990fe-38aa-4d6d-aa6b-c87baad5f8d1",
+   "name": "Vic Tutor",
+   "role": "6th Grade Tutor",
+   "roleFrom": "title",
+   "oneLiner": "Vic Tutor \u2014 homework tutor for Victor Boyd only (6th grade, ~11).",
+   "color": "#f97316",
+   "colorName": "orange",
+   "shape": "cloud",
+   "schedule": [
+    "Vic weeknight homework check-in: 6:15 PM daily"
+   ],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": true,
+   "deeplink": "grokbot://app/v1/agent?id=7e4990fe-38aa-4d6d-aa6b-c87baad5f8d1"
+  },
+  {
+   "id": "d26b92da-570a-4d65-bd17-86efa401a125",
+   "name": "New Bot",
+   "role": "",
+   "roleFrom": "none",
+   "oneLiner": "",
+   "color": "#94a3b8",
+   "colorName": "unset",
+   "shape": "circle",
+   "schedule": [],
+   "paused": [],
+   "rhythm": [],
+   "inBotIsland": false,
+   "deeplink": "grokbot://app/v1/agent?id=d26b92da-570a-4d65-bd17-86efa401a125"
+  }
+ ],
+ "fleetGeneratedAt": "2026-10-07T19:55:50.003750Z",
+ "_source": "http://127.0.0.1:4646/api/hub (TokenMax Hub, read-only GET)"
+}

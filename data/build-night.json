@@ -1,0 +1,224 @@
+{
+ "measured_at": "2026-10-07T18:15:38-04:00",
+ "readings": [
+  {
+   "at": "2026-10-07T15:22-04:00",
+   "used_pct": 8
+  },
+  {
+   "at": "2026-10-07T16:16-04:00",
+   "used_pct": 12
+  },
+  {
+   "at": "2026-10-07T16:40-04:00",
+   "used_pct": 20
+  },
+  {
+   "at": "2026-10-07T17:19-04:00",
+   "used_pct": 31
+  },
+  {
+   "at": "2026-10-07T17:37-04:00",
+   "used_pct": 40
+  },
+  {
+   "at": "2026-10-07T18:00-04:00",
+   "used_pct": 47
+  }
+ ],
+ "readings_source": "TokenMax's readings of the Cursor usage dashboard (Grok Bot weekly included usage), ET",
+ "usage_snapshot": {
+  "used_pct": 47,
+  "reset_date": "2026-10-08",
+  "checked_at": "2026-10-07T18:00-04:00",
+  "label": "Grok Bot weekly included usage",
+  "reset_at": null,
+  "source": "Cursor usage dashboard (read by TokenMax)",
+  "_saved_from": "/workspace/tokenmax/usage.json",
+  "_saved_at": "2026-10-07T18:15:38-04:00"
+ },
+ "projects": [
+  {
+   "name": "bot-island",
+   "first_today": "2026-10-07T15:33:03-04:00",
+   "files_today": 40
+  },
+  {
+   "name": "hub",
+   "first_today": "2026-10-07T16:09:11-04:00",
+   "files_today": 412
+  },
+  {
+   "name": "explainer-studio",
+   "first_today": "2026-10-07T16:17:29-04:00",
+   "files_today": 2958
+  },
+  {
+   "name": "llm-box-advisor",
+   "first_today": "2026-10-07T16:18:39-04:00",
+   "files_today": 24
+  },
+  {
+   "name": "boyd-wall",
+   "first_today": "2026-10-07T16:19:34-04:00",
+   "files_today": 65
+  },
+  {
+   "name": "bookmark-atlas",
+   "first_today": "2026-10-07T16:26:04-04:00",
+   "files_today": 6929
+  },
+  {
+   "name": "fridge-board",
+   "first_today": "2026-10-07T16:29:41-04:00",
+   "files_today": 24
+  },
+  {
+   "name": "chopsticks",
+   "first_today": "2026-10-07T16:29:49-04:00",
+   "files_today": 43
+  },
+  {
+   "name": "agent-playbook",
+   "first_today": "2026-10-07T16:37:02-04:00",
+   "files_today": 25
+  },
+  {
+   "name": "family-week",
+   "first_today": "2026-10-07T16:37:21-04:00",
+   "files_today": 40
+  },
+  {
+   "name": "times-archive",
+   "first_today": "2026-10-07T16:42:39-04:00",
+   "files_today": 305
+  },
+  {
+   "name": "hspt-quest",
+   "first_today": "2026-10-07T16:43:00-04:00",
+   "files_today": 38
+  },
+  {
+   "name": "fleet-funnies",
+   "first_today": "2026-10-07T16:44:27-04:00",
+   "files_today": 173
+  },
+  {
+   "name": "ai-ops-atlas",
+   "first_today": "2026-10-07T16:44:33-04:00",
+   "files_today": 35
+  },
+  {
+   "name": "pods-radio",
+   "first_today": "2026-10-07T16:49:32-04:00",
+   "files_today": 5289
+  },
+  {
+   "name": "trailer",
+   "first_today": "2026-10-07T16:55:42-04:00",
+   "files_today": 577
+  },
+  {
+   "name": "trip-kit",
+   "first_today": "2026-10-07T17:01:43-04:00",
+   "files_today": 38
+  },
+  {
+   "name": "season-book",
+   "first_today": "2026-10-07T17:20:51-04:00",
+   "files_today": 45
+  },
+  {
+   "name": "mission-control",
+   "first_today": "2026-10-07T17:21:08-04:00",
+   "files_today": 33
+  },
+  {
+   "name": "chelsea-time-machine",
+   "first_today": "2026-10-07T17:21:23-04:00",
+   "files_today": 90
+  },
+  {
+   "name": "sports-desk",
+   "first_today": "2026-10-07T17:21:50-04:00",
+   "files_today": 95
+  },
+  {
+   "name": "orioles-2026",
+   "first_today": "2026-10-07T17:25:51-04:00",
+   "files_today": 32
+  },
+  {
+   "name": "ravens-film-room",
+   "first_today": "2026-10-07T17:26:13-04:00",
+   "files_today": 48
+  },
+  {
+   "name": "terps-preview",
+   "first_today": "2026-10-07T17:30:35-04:00",
+   "files_today": 38
+  },
+  {
+   "name": "fleet-yearbook",
+   "first_today": "2026-10-07T17:32:53-04:00",
+   "files_today": 42
+  },
+  {
+   "name": "trivia-night",
+   "first_today": "2026-10-07T17:32:56-04:00",
+   "files_today": 129
+  },
+  {
+   "name": "docket-pilot",
+   "first_today": "2026-10-07T17:35:22-04:00",
+   "files_today": 121
+  },
+  {
+   "name": "math-arcade",
+   "first_today": "2026-10-07T17:44:32-04:00",
+   "files_today": 50
+  },
+  {
+   "name": "chelsea-matchday",
+   "first_today": "2026-10-07T17:47:01-04:00",
+   "files_today": 43
+  },
+  {
+   "name": "writing-studio",
+   "first_today": "2026-10-07T17:47:04-04:00",
+   "files_today": 34
+  },
+  {
+   "name": "recap",
+   "first_today": "2026-10-07T17:48:06-04:00",
+   "files_today": 50
+  },
+  {
+   "name": "slack-pulse",
+   "first_today": "2026-10-07T17:55:45-04:00",
+   "files_today": 48
+  },
+  {
+   "name": "bot-island-3d",
+   "first_today": "2026-10-07T17:59:38-04:00",
+   "files_today": 34
+  },
+  {
+   "name": "ship-it-stats",
+   "first_today": "2026-10-07T18:01:59-04:00",
+   "files_today": 18
+  },
+  {
+   "name": "fleet-doctor",
+   "first_today": "2026-10-07T18:02:43-04:00",
+   "files_today": 16
+  },
+  {
+   "name": "bot-launcher",
+   "first_today": "2026-10-07T18:07:13-04:00",
+   "files_today": 18
+  }
+ ],
+ "projects_rule": "folders directly under /workspace/tokenmax with at least one file written on 2026-10-07 (ET), counted at build time",
+ "boyd_quote": "Build build build until you can build no more."
+}

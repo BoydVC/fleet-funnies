@@ -1,0 +1,10 @@
+{
+ "used_pct": 47,
+ "reset_date": "2026-10-08",
+ "checked_at": "2026-10-07T18:00-04:00",
+ "label": "Grok Bot weekly included usage",
+ "reset_at": null,
+ "source": "Cursor usage dashboard (read by TokenMax)",
+ "_saved_from": "/workspace/tokenmax/usage.json",
+ "_saved_at": "2026-10-07T18:15:38-04:00"
+}
