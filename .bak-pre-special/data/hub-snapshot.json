@@ -192,7 +192,7 @@
   {
    "name": "fridge-board",
    "title": "Boyd Fridge Board \ud83e\uddf2",
-   "pitch": "A warm, kid-friendly progress board for Char (8th grade) and Vic (6th grade), sized for a kitchen tablet (1280\u00d7800 landscape).",
+   "pitch": "A warm, kid-friendly progress board for Alex (8th grade) and Sam (6th grade), sized for a kitchen tablet (1280\u00d7800 landscape).",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -1261,15 +1261,15 @@
   },
   {
    "id": "ff5dfcd2-09b9-49dd-952f-14893da73ab0",
-   "name": "Char Tutor",
+   "name": "Alex Tutor",
    "role": "8th Grade Tutor",
    "roleFrom": "title",
-   "oneLiner": "Char Tutor \u2014 homework tutor for Charlotte Boyd only (8th grade, ~13).",
+   "oneLiner": "Alex Tutor \u2014 homework tutor for Alex Doe only (8th grade, ~13).",
    "color": "#8b5cf6",
    "colorName": "violet",
    "shape": "cloud",
    "schedule": [
-    "Char weeknight homework check-in: 5:45 PM daily"
+    "Alex weeknight homework check-in: 5:45 PM daily"
    ],
    "paused": [],
    "rhythm": [],
@@ -1404,7 +1404,7 @@
    "name": "Path",
    "role": "High School Path",
    "roleFrom": "title",
-   "oneLiner": "Path \u2014 Charlotte Boyd's high-school placement guide (8th grade \u2192 fall 2027).",
+   "oneLiner": "Path \u2014 Alex Doe's high-school placement guide (8th grade \u2192 fall 2027).",
    "color": "#94a3b8",
    "colorName": "gray",
    "shape": "circle",
@@ -1467,15 +1467,15 @@
   },
   {
    "id": "7e4990fe-38aa-4d6d-aa6b-c87baad5f8d1",
-   "name": "Vic Tutor",
+   "name": "Sam Tutor",
    "role": "6th Grade Tutor",
    "roleFrom": "title",
-   "oneLiner": "Vic Tutor \u2014 homework tutor for Victor Boyd only (6th grade, ~11).",
+   "oneLiner": "Sam Tutor \u2014 homework tutor for Samuel Doe only (6th grade, ~11).",
    "color": "#f97316",
    "colorName": "orange",
    "shape": "cloud",
    "schedule": [
-    "Vic weeknight homework check-in: 6:15 PM daily"
+    "Sam weeknight homework check-in: 6:15 PM daily"
    ],
    "paused": [],
    "rhythm": [],
