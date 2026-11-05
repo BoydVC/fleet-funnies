@@ -4,7 +4,7 @@
   {
    "name": "bot-island",
    "title": "\ud83c\udfdd\ufe0f Bot Island",
-   "pitch": "A living map of Boyd's Grok Bot fleet.",
+   "pitch": "A living map of Alex's Grok Bot fleet.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -107,7 +107,7 @@
   {
    "name": "llm-box-advisor",
    "title": "\ud83d\udda5\ufe0f Local LLM Box Advisor",
-   "pitch": "Could Boyd run his Grok Bot fleet, or parts of it, on his own hardware, and what would it take?",
+   "pitch": "Could Alex run his Grok Bot fleet, or parts of it, on his own hardware, and what would it take?",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -150,8 +150,8 @@
   },
   {
    "name": "boyd-wall",
-   "title": "\ud83d\udef0\ufe0f Boyd Wall: mission control for a TV or second monitor",
-   "pitch": "A 1920\u00d71080 dark \"mission control\" dashboard for Boyd: SpaceX/Starship/Starlink launches with live T-minus countdowns, a Sports Desk for the Ravens, Terps, Chelsea and Orioles, Millersville weather with the week ahead, and a fleet strip showing every Grok Bot plus the TokenMax fuel gauge.",
+   "title": "\ud83d\udef0\ufe0f Alex Wall: mission control for a TV or second monitor",
+   "pitch": "A 1920\u00d71080 dark \"mission control\" dashboard for Alex: SpaceX/Starship/Starlink launches with live T-minus countdowns, a Sports Desk for the Ravens, Terps, Chelsea and Orioles, Lakeside weather with the week ahead, and a fleet strip showing every Grok Bot plus the TokenMax fuel gauge.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -197,7 +197,7 @@
   {
    "name": "bookmark-atlas",
    "title": "Bookmark Atlas",
-   "pitch": "An interactive dark-mode explorer of everything Boyd (@xristafer) bookmarked on X and everything his research bots saved about posts he follows.",
+   "pitch": "An interactive dark-mode explorer of everything Alex (@xristafer) bookmarked on X and everything his research bots saved about posts he follows.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -243,7 +243,7 @@
   },
   {
    "name": "fridge-board",
-   "title": "Boyd Fridge Board \ud83e\uddf2",
+   "title": "Alex Fridge Board \ud83e\uddf2",
    "pitch": "A warm, kid-friendly progress board for Alex (8th grade) and Sam (6th grade), sized for a kitchen tablet (1280\u00d7800 landscape).",
    "ready": true,
    "hasReadme": true,
@@ -375,7 +375,7 @@
   },
   {
    "name": "family-week",
-   "title": "Family Week: the Boyds' kitchen-display week planner",
+   "title": "Family Week: the Riveras' kitchen-display week planner",
    "pitch": "Live:",
    "ready": true,
    "hasReadme": true,
@@ -424,8 +424,8 @@
   },
   {
    "name": "times-archive",
-   "title": "Times Archive: The Boyd Family Times, bound and shelved",
-   "pitch": "A searchable archive of every saved edition of The Boyd Family Times, Boyd's daily household newspaper bot.",
+   "title": "Times Archive: The Lakeside Family Times, bound and shelved",
+   "pitch": "A searchable archive of every saved edition of The Lakeside Family Times, Alex's daily household newspaper bot.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -524,7 +524,7 @@
   {
    "name": "fleet-funnies",
    "title": "Fleet Funnies",
-   "pitch": "A daily comic strip starring Boyd's Grok Bots.",
+   "pitch": "A daily comic strip starring Alex's Grok Bots.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -610,7 +610,7 @@
   {
    "name": "pods-radio",
    "title": "Pods Radio \ud83d\udcfb",
-   "pitch": "A daily radio show produced automatically from the YouTube and podcast feeds that Boyd's Pods bot watches: All-In, Moonshots (Peter Diamandis), Jesse Michels, and Bill Simmons / The Ringer.",
+   "pitch": "A daily radio show produced automatically from the YouTube and podcast feeds that Alex's Pods bot watches: All-In, Moonshots (Peter Diamandis), Jesse Michels, and Bill Simmons / The Ringer.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -657,7 +657,7 @@
   },
   {
    "name": "trip-kit",
-   "title": "NCBA Trip Kit: Boyd at NCBA Connect 2026, Orlando (Oct 12\u201315)",
+   "title": "NCBA Trip Kit: Alex at NCBA Connect 2026, Orlando (Oct 12\u201315)",
    "pitch": "Live:",
    "ready": true,
    "hasReadme": true,
@@ -743,7 +743,7 @@
   {
    "name": "mission-control",
    "title": "Mission Control \u2014 SpaceX \u00b7 Starship \u00b7 Starlink wall",
-   "pitch": "A cinematic dark wall dashboard for Boyd (TokenMax build night, Oct 7 2026; SHORTLIST idea #7).",
+   "pitch": "A cinematic dark wall dashboard for Alex (TokenMax build night, Oct 7 2026; SHORTLIST idea #7).",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -786,7 +786,7 @@
   {
    "name": "chelsea-time-machine",
    "title": "Blue Since Boyhood: Chelsea FC, 1990s to now",
-   "pitch": "An interactive Chelsea history for Boyd, a Chelsea fan since the 1990s.",
+   "pitch": "An interactive Chelsea history for Alex, a Chelsea fan since the 1990s.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -829,7 +829,7 @@
   {
    "name": "sports-desk",
    "title": "The Sports Desk",
-   "pitch": "A newspaper-style sports front for Boyd's teams (Ravens, Chelsea, Orioles, Terps men's basketball), with ESPN-style data viz.",
+   "pitch": "A newspaper-style sports front for Alex's teams (Ravens, Chelsea, Orioles, Terps men's basketball), with ESPN-style data viz.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -867,7 +867,7 @@
   {
    "name": "orioles-2026",
    "title": "Orioles 2026 \u00b7 Season in Review",
-   "pitch": "An interactive scrapbook of the Baltimore Orioles' 2026 regular season, built for Boyd by TokenMax.",
+   "pitch": "An interactive scrapbook of the Baltimore Orioles' 2026 regular season, built for Alex by TokenMax.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -956,7 +956,7 @@
   {
    "name": "fleet-yearbook",
    "title": "The Fleet \u201926 \u2014 Grok Bot Yearbook",
-   "pitch": "A high-school-yearbook-style book about Boyd's Grok Bot fleet (TokenMax build night, Oct 7 2026).",
+   "pitch": "A high-school-yearbook-style book about Alex's Grok Bot fleet (TokenMax build night, Oct 7 2026).",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -995,7 +995,7 @@
   },
   {
    "name": "trivia-night",
-   "title": "Boyd Family Trivia Night",
+   "title": "Lakeside Family Trivia Night",
    "pitch": "A Jeopardy-style game for the kitchen TV.",
    "ready": true,
    "hasReadme": true,
@@ -1174,7 +1174,7 @@
   {
    "name": "slack-pulse",
    "title": "Slack Pulse (TokenMax build night)",
-   "pitch": "A 14-day work dashboard for Boyd (kpdlawgroup Slack) covering Sep 24 to Oct 7, 2026 (ET).",
+   "pitch": "A 14-day work dashboard for Alex (kpdlawgroup Slack) covering Sep 24 to Oct 7, 2026 (ET).",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -1212,7 +1212,7 @@
   {
    "name": "ship-it-stats",
    "title": "\ud83d\ude80 Ship-it Stats",
-   "pitch": "A @poteto-style \"how I shipped N PRs\" scoreboard for Boyd's own agent work.",
+   "pitch": "A @poteto-style \"how I shipped N PRs\" scoreboard for Alex's own agent work.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -1251,7 +1251,7 @@
   },
   {
    "name": "fleet-doctor",
-   "title": "\ud83e\ude7a Fleet Doctor: a report card for Boyd's Grok Bot fleet",
+   "title": "\ud83e\ude7a Fleet Doctor: a report card for Alex's Grok Bot fleet",
    "pitch": "TokenMax build night, Oct 7 2026 (shortlist idea #2, \"pstack for bots\").",
    "ready": true,
    "hasReadme": true,
@@ -1290,7 +1290,7 @@
   {
    "name": "bot-launcher",
    "title": "\ud83d\ude80 Bot Launcher",
-   "pitch": "Boyd's personal \"bot app store\": one card for each of the 15 Grok Bots in the fleet, plus a Build Night shelf that links to every TokenMax project from Oct 7, 2026.",
+   "pitch": "Alex's personal \"bot app store\": one card for each of the 15 Grok Bots in the fleet, plus a Build Night shelf that links to every TokenMax project from Oct 7, 2026.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -1331,7 +1331,7 @@
   {
    "name": "trailer",
    "title": "Build Night Trailer",
-   "pitch": "A cinematic 60\u201390 s trailer of everything TokenMax built on Oct 7, 2026 from Boyd's leftover Grok Bot usage.",
+   "pitch": "A cinematic 60\u201390 s trailer of everything TokenMax built on Oct 7, 2026 from Alex's leftover Grok Bot usage.",
    "ready": false,
    "hasReadme": true,
    "snapshots": [],
@@ -1472,7 +1472,7 @@
   {
    "name": "terps-preview",
    "title": "Terps Hoops 2026\u201327 Preview",
-   "pitch": "A preseason magazine-style preview of Maryland men's basketball, built for Boyd (UMD) by TokenMax.",
+   "pitch": "A preseason magazine-style preview of Maryland men's basketball, built for Alex (UMD) by TokenMax.",
    "ready": false,
    "hasReadme": true,
    "snapshots": [],
@@ -1614,7 +1614,7 @@
   {
    "name": "bot-island-3d",
    "title": "\ud83c\udfdd\ufe0f Bot Island 3D",
-   "pitch": "A Three.js remake of [Bot Island](../bot-island/README.md), the live map of Boyd's Grok Bot fleet.",
+   "pitch": "A Three.js remake of [Bot Island](../bot-island/README.md), the live map of Alex's Grok Bot fleet.",
    "ready": false,
    "hasReadme": true,
    "snapshots": [],
@@ -3141,10 +3141,10 @@
  "bots": [
   {
    "id": "784bedfc-74d6-45a0-a291-762ff05bb0c6",
-   "name": "Boyd Family Times",
+   "name": "Lakeside Family Times",
    "role": "",
    "roleFrom": "description",
-   "oneLiner": "The Boyd Family Times \u2014 Boyd's daily household newspaper.",
+   "oneLiner": "The Lakeside Family Times \u2014 Alex's daily household newspaper.",
    "color": "#94a3b8",
    "colorName": "gray",
    "shape": "circle",
@@ -3161,7 +3161,7 @@
    "name": "Brief",
    "role": "Morning Brief",
    "roleFrom": "title",
-   "oneLiner": "You prepare Boyd's weekday morning attention brief.",
+   "oneLiner": "You prepare Alex's weekday morning attention brief.",
    "color": "#3b82f6",
    "colorName": "blue",
    "shape": "wedge",
@@ -3213,7 +3213,7 @@
    "name": "Dwight",
    "role": "Code Monkey",
    "roleFrom": "title",
-   "oneLiner": "Dwight, Boyd's software engineer.",
+   "oneLiner": "Dwight, Alex's software engineer.",
    "color": "#eab308",
    "colorName": "yellow",
    "shape": "teardrop",
@@ -3228,7 +3228,7 @@
    "name": "Jim",
    "role": "Interests",
    "roleFrom": "title",
-   "oneLiner": "Boyd's interest and research specialist.",
+   "oneLiner": "Alex's interest and research specialist.",
    "color": "#3b82f6",
    "colorName": "blue",
    "shape": "hex",
@@ -3249,7 +3249,7 @@
    "name": "Kelly",
    "role": "Trends",
    "roleFrom": "title",
-   "oneLiner": "Boyd's real-time web and X analyst.",
+   "oneLiner": "Alex's real-time web and X analyst.",
    "color": "#eab308",
    "colorName": "yellow",
    "shape": "pebble",
@@ -3282,7 +3282,7 @@
    "name": "Oscar",
    "role": "Finances",
    "roleFrom": "title",
-   "oneLiner": "Boyd's finance specialist.",
+   "oneLiner": "Alex's finance specialist.",
    "color": "#22c55e",
    "colorName": "green",
    "shape": "squircle",
@@ -3301,7 +3301,7 @@
    "name": "Pam",
    "role": "Family Logistics",
    "roleFrom": "title",
-   "oneLiner": "Boyd's family logistics specialist.",
+   "oneLiner": "Alex's family logistics specialist.",
    "color": "#06b6d4",
    "colorName": "cyan",
    "shape": "tablet",
@@ -3335,7 +3335,7 @@
    "name": "Pods",
    "role": "",
    "roleFrom": "description",
-   "oneLiner": "Pods \u2014 Boyd's daily podcast/YouTube listen brief.",
+   "oneLiner": "Pods \u2014 Alex's daily podcast/YouTube listen brief.",
    "color": "#94a3b8",
    "colorName": "gray",
    "shape": "circle",
@@ -3352,7 +3352,7 @@
    "name": "Ryan",
    "role": "Entrepreneur",
    "roleFrom": "title",
-   "oneLiner": "Ryan \u2014 Boyd's Entrepreneur.",
+   "oneLiner": "Ryan \u2014 Alex's Entrepreneur.",
    "color": "#ef4444",
    "colorName": "red",
    "shape": "squircle",
@@ -3369,7 +3369,7 @@
    "name": "TokenMax",
    "role": "",
    "roleFrom": "description",
-   "oneLiner": "TokenMax, Boyd's use-it-or-lose-it builder.",
+   "oneLiner": "TokenMax, Alex's use-it-or-lose-it builder.",
    "color": "#d946ef",
    "colorName": "magenta",
    "shape": "sparkle",
