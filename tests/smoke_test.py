@@ -92,7 +92,7 @@ for s in S:
         src = p['source']; tag = f'{s["id"]} p{i + 1}'
         m = re.search(r'(\d+) bot-to-bot messages on', src)
         if m: check(int(m.group(1)) == len(F.msgs.get(day, [])), f'{tag}: message count')
-        for who, n in re.findall(r'(Vic Tutor|Char Tutor) (\d+)', src):
+        for who, n in re.findall(r'(Sam Tutor|Alex Tutor) (\d+)', src):
             if 'computer-use' in src: check(F.cu[day].get(who, 0) == int(n), f'{tag}: computer-use count {who}')
         m = re.search(r'print = (pdf-only|printed)', src)
         if m: check(F.editions[day]['print'] == m.group(1), f'{tag}: edition print status')
