@@ -4,7 +4,7 @@
   {
    "name": "bot-island",
    "title": "\ud83c\udfdd\ufe0f Bot Island",
-   "pitch": "A living map of Boyd's Grok Bot fleet.",
+   "pitch": "A living map of Alex's Grok Bot fleet.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -57,7 +57,7 @@
   {
    "name": "llm-box-advisor",
    "title": "\ud83d\udda5\ufe0f Local LLM Box Advisor",
-   "pitch": "Could Boyd run his Grok Bot fleet, or parts of it, on his own hardware, and what would it take?",
+   "pitch": "Could Alex run his Grok Bot fleet, or parts of it, on his own hardware, and what would it take?",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -98,8 +98,8 @@
   },
   {
    "name": "boyd-wall",
-   "title": "\ud83d\udef0\ufe0f Boyd Wall: mission control for a TV or second monitor",
-   "pitch": "A 1920\u00d71080 dark \"mission control\" dashboard for Boyd: SpaceX/Starship/Starlink launches with live T-minus countdowns, a Sports Desk for the Ravens, Terps, Chelsea and Orioles, Millersville weather with the week ahead, and a fleet strip showing every Grok Bot plus the TokenMax fuel gauge.",
+   "title": "\ud83d\udef0\ufe0f Alex Wall: mission control for a TV or second monitor",
+   "pitch": "A 1920\u00d71080 dark \"mission control\" dashboard for Alex: SpaceX/Starship/Starlink launches with live T-minus countdowns, a Sports Desk for the Ravens, Terps, Chelsea and Orioles, Lakeside weather with the week ahead, and a fleet strip showing every Grok Bot plus the TokenMax fuel gauge.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -145,7 +145,7 @@
   {
    "name": "bookmark-atlas",
    "title": "Bookmark Atlas",
-   "pitch": "An interactive dark-mode explorer of everything Boyd (@xristafer) bookmarked on X and everything his research bots saved about posts he follows.",
+   "pitch": "An interactive dark-mode explorer of everything Alex (@xristafer) bookmarked on X and everything his research bots saved about posts he follows.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -191,7 +191,7 @@
   },
   {
    "name": "fridge-board",
-   "title": "Boyd Fridge Board \ud83e\uddf2",
+   "title": "Alex Fridge Board \ud83e\uddf2",
    "pitch": "A warm, kid-friendly progress board for Alex (8th grade) and Sam (6th grade), sized for a kitchen tablet (1280\u00d7800 landscape).",
    "ready": true,
    "hasReadme": true,
@@ -323,7 +323,7 @@
   },
   {
    "name": "family-week",
-   "title": "Family Week: the Boyds' kitchen-display week planner",
+   "title": "Family Week: the Riveras' kitchen-display week planner",
    "pitch": "Live:",
    "ready": true,
    "hasReadme": true,
@@ -372,8 +372,8 @@
   },
   {
    "name": "times-archive",
-   "title": "Times Archive: The Boyd Family Times, bound and shelved",
-   "pitch": "A searchable archive of every saved edition of The Boyd Family Times, Boyd's daily household newspaper bot.",
+   "title": "Times Archive: The Lakeside Family Times, bound and shelved",
+   "pitch": "A searchable archive of every saved edition of The Lakeside Family Times, Alex's daily household newspaper bot.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -417,7 +417,7 @@
   {
    "name": "fleet-funnies",
    "title": "Fleet Funnies",
-   "pitch": "A daily comic strip starring Boyd's Grok Bots.",
+   "pitch": "A daily comic strip starring Alex's Grok Bots.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
@@ -1227,10 +1227,10 @@
  "bots": [
   {
    "id": "784bedfc-74d6-45a0-a291-762ff05bb0c6",
-   "name": "Boyd Family Times",
+   "name": "Lakeside Family Times",
    "role": "",
    "roleFrom": "description",
-   "oneLiner": "The Boyd Family Times \u2014 Boyd's daily household newspaper.",
+   "oneLiner": "The Lakeside Family Times \u2014 Alex's daily household newspaper.",
    "color": "#94a3b8",
    "colorName": "gray",
    "shape": "circle",
@@ -1247,7 +1247,7 @@
    "name": "Brief",
    "role": "Morning Brief",
    "roleFrom": "title",
-   "oneLiner": "You prepare Boyd's weekday morning attention brief.",
+   "oneLiner": "You prepare Alex's weekday morning attention brief.",
    "color": "#3b82f6",
    "colorName": "blue",
    "shape": "wedge",
@@ -1299,7 +1299,7 @@
    "name": "Dwight",
    "role": "Code Monkey",
    "roleFrom": "title",
-   "oneLiner": "Dwight, Boyd's software engineer.",
+   "oneLiner": "Dwight, Alex's software engineer.",
    "color": "#eab308",
    "colorName": "yellow",
    "shape": "teardrop",
@@ -1314,7 +1314,7 @@
    "name": "Jim",
    "role": "Interests",
    "roleFrom": "title",
-   "oneLiner": "Boyd's interest and research specialist.",
+   "oneLiner": "Alex's interest and research specialist.",
    "color": "#3b82f6",
    "colorName": "blue",
    "shape": "hex",
@@ -1335,7 +1335,7 @@
    "name": "Kelly",
    "role": "Trends",
    "roleFrom": "title",
-   "oneLiner": "Boyd's real-time web and X analyst.",
+   "oneLiner": "Alex's real-time web and X analyst.",
    "color": "#eab308",
    "colorName": "yellow",
    "shape": "pebble",
@@ -1368,7 +1368,7 @@
    "name": "Oscar",
    "role": "Finances",
    "roleFrom": "title",
-   "oneLiner": "Boyd's finance specialist.",
+   "oneLiner": "Alex's finance specialist.",
    "color": "#22c55e",
    "colorName": "green",
    "shape": "squircle",
@@ -1387,7 +1387,7 @@
    "name": "Pam",
    "role": "Family Logistics",
    "roleFrom": "title",
-   "oneLiner": "Boyd's family logistics specialist.",
+   "oneLiner": "Alex's family logistics specialist.",
    "color": "#06b6d4",
    "colorName": "cyan",
    "shape": "tablet",
@@ -1421,7 +1421,7 @@
    "name": "Pods",
    "role": "",
    "roleFrom": "description",
-   "oneLiner": "Pods \u2014 Boyd's daily podcast/YouTube listen brief.",
+   "oneLiner": "Pods \u2014 Alex's daily podcast/YouTube listen brief.",
    "color": "#94a3b8",
    "colorName": "gray",
    "shape": "circle",
@@ -1438,7 +1438,7 @@
    "name": "Ryan",
    "role": "Entrepreneur",
    "roleFrom": "title",
-   "oneLiner": "Ryan \u2014 Boyd's Entrepreneur.",
+   "oneLiner": "Ryan \u2014 Alex's Entrepreneur.",
    "color": "#ef4444",
    "colorName": "red",
    "shape": "squircle",
@@ -1455,7 +1455,7 @@
    "name": "TokenMax",
    "role": "",
    "roleFrom": "description",
-   "oneLiner": "TokenMax, Boyd's use-it-or-lose-it builder.",
+   "oneLiner": "TokenMax, Alex's use-it-or-lose-it builder.",
    "color": "#d946ef",
    "colorName": "magenta",
    "shape": "sparkle",

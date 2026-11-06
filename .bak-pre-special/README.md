@@ -1,6 +1,6 @@
 # Fleet Funnies
 
-**A daily comic strip starring Boyd's Grok Bots.** It's generated automatically from Bot Island's fleet data and drawn in hand-made SVG.
+**A daily comic strip starring Alex's Grok Bots.** It's generated automatically from Bot Island's fleet data and drawn in hand-made SVG.
 Every gag is grounded in a real logged event, and the source event is printed in small text under each panel.
 
 - **Live:** http://127.0.0.1:4142/ (`./run.sh` starts or restarts it in the background)
@@ -31,7 +31,7 @@ Best single panel: `dist/png/panels/daily-2026-09-14-p2.png`. The archive Family
 ## How it works
 ```
 build/beats.py         reads Bot Island data (read-only), indexes it by ET day, and runs the beat detectors
-build/art.py           SVG bots (Bot Island's body shapes + colors, visor faces, antenna lights), Boyd in his Ravens #8, props
+build/art.py           SVG bots (Bot Island's body shapes + colors, visor faces, antenna lights), Alex in his Ravens #8, props
 build/scenes.py        Bot Island's places as panel backdrops (press, post office, bank, schoolhouse, HQ, library, launch pad…), bubbles
 build/compose.py       panels → 4-panel dailies (muted newsprint) and the Sunday color strip (banner + 8 panels)
 build/generate.py      picks the days and beats, then writes strips/*.svg, strips/panels/*.svg and data/strips.json
@@ -55,7 +55,7 @@ Rebuild everything with `./build.sh`, then `./screenshot.sh` and `python3 tests/
 - Path's HSPT sheets and Pods' feed around 6:50 AM
 - Jim's Simmons pick running twice on Sunday
 - Dr. EggBot's checkup and Ryan's digest
-- Boyd's check-ins
+- Alex's check-ins
 - the day the local logs end
 - TokenMax burning fuel before the reset
 
@@ -68,10 +68,10 @@ For each day the generator fills 4 panels greedily by score, without letting the
 ## Grounding rules
 - Speech-bubble lines are comic dialogue. Everything they assert (times, counts, who ran what) comes from the data shown in the source line.
 - No message content, prompts or private text is used. Bot Island only stores timestamps and senders, and only those are used here.
-- The smoke test checks every clock time printed in a panel (caption, bubble or source) against a real event, a scheduled cron fire or a data timestamp for that day. It also re-derives the message, computer-use, Boyd check-in and event counts, the edition print status, the "no Brief run" claims, the hub counts and usage.json. It checks for a list of mean or crude words, and that every bot is drawn in its real Bot Island color.
+- The smoke test checks every clock time printed in a panel (caption, bubble or source) against a real event, a scheduled cron fire or a data timestamp for that day. It also re-derives the message, computer-use, Alex check-in and event counts, the edition print status, the "no Brief run" claims, the hub counts and usage.json. It checks for a list of mean or crude words, and that every bot is drawn in its real Bot Island color.
 
 ## Sources (all read-only)
-- `/workspace/tokenmax/bot-island/data/fleet.json`: routine runs, outputs (file writes, dated outputs), bot-to-bot messages, computer-use sessions, Boyd check-ins, newspaper edition log, tokenFuel
+- `/workspace/tokenmax/bot-island/data/fleet.json`: routine runs, outputs (file writes, dated outputs), bot-to-bot messages, computer-use sessions, Alex check-ins, newspaper edition log, tokenFuel
 - `/workspace/tokenmax/bot-island/config.json`: places (`buildings`). Avatar shapes and colors come from fleet.json. The body-shape geometry is ported from Bot Island's `web/app.js`.
 - Fleet Doctor findings (two bots one job, missed runs, paused copies, routines within 20 minutes) are named in source lines as they appear in Bot Island's report.
 - `/workspace/tokenmax/usage.json` and `http://127.0.0.1:4646/api/hub` (TokenMax Hub)

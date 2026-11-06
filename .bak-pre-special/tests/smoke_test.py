@@ -89,8 +89,8 @@ for s in S:
         m = re.search(r'print = (pdf-only|printed)', src)
         if m: check(F.editions[day]['print'] == m.group(1), f'{tag}: edition print status')
         if 'No run logged' in src: check(not any(r['bot'] == 'Brief' for r in F.runs.get(day, [])), f'{tag}: Brief really has no run')
-        m = re.search(r'(\d+) messages from Boyd', src)
-        if m: check(int(m.group(1)) == len(F.boyd.get(day, [])), f'{tag}: Boyd message count')
+        m = re.search(r'(\d+) messages from Alex', src)
+        if m: check(int(m.group(1)) == len(F.boyd.get(day, [])), f'{tag}: Alex message count')
         m = re.search(r'(\d+) logged events', src)
         if m: check(int(m.group(1)) == F.total[day], f'{tag}: event total')
         m = re.search(r'used_pct (\d+)', src)
@@ -123,7 +123,7 @@ for s in S:
 for s in S:
     for p in s['panels']:
         for who in p['cast']:
-            if who == 'Boyd': continue
+            if who == 'Alex': continue
             b = F.bots.get(who); check(b is not None, f'{s["id"]}: {who} is a real bot')
             if b: check(COLORS.get(b['color'], '').lower() in s['svg'].lower(), f'{s["id"]}: {who} drawn in Bot Island color {b["color"]}')
 

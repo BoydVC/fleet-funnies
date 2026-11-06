@@ -97,8 +97,8 @@ for s in S:
         m = re.search(r'print = (pdf-only|printed)', src)
         if m: check(F.editions[day]['print'] == m.group(1), f'{tag}: edition print status')
         if 'No run logged' in src: check(not any(r['bot'] == 'Brief' for r in F.runs.get(day, [])), f'{tag}: Brief really has no run')
-        m = re.search(r'(\d+) messages from Boyd', src)
-        if m: check(int(m.group(1)) == len(F.boyd.get(day, [])), f'{tag}: Boyd message count')
+        m = re.search(r'(\d+) messages from Alex', src)
+        if m: check(int(m.group(1)) == len(F.boyd.get(day, [])), f'{tag}: Alex message count')
         m = re.search(r'(\d+) logged events', src)
         if m: check(int(m.group(1)) == F.total[day], f'{tag}: event total')
         m = re.search(r'used_pct (\d+)', src)
@@ -126,7 +126,7 @@ for s_ in specials:
     for name in re.findall(r'"([\w-]+)"(?: \([^)]*\))? first file', blob):
         check(name in proj_names and os.path.isdir(os.path.join('/workspace/tokenmax', name)), f'special: folder {name} is real')
     check(all(os.path.isdir(os.path.join('/workspace/tokenmax', n)) for n in proj_names), 'special: every counted folder exists')
-    check('Build build build until you can build no more' in blob, "special: Boyd's line is in the strip")
+    check('Build build build until you can build no more' in blob, "special: Alex's line is in the strip")
 check(os.path.exists(os.path.join(ROOT, 'dist', 'png', 'build-night-special.png')), 'dist/png/build-night-special.png exists')
 
 # --- Fleet Doctor claims quoted in sources really appear in Bot Island's Fleet Doctor report
@@ -150,7 +150,7 @@ for s in S:
 for s in S:
     for p in s['panels']:
         for who in p['cast']:
-            if who == 'Boyd': continue
+            if who == 'Alex': continue
             b = F.bots.get(who); check(b is not None, f'{s["id"]}: {who} is a real bot')
             if b: check(COLORS.get(b['color'], '').lower() in s['svg'].lower(), f'{s["id"]}: {who} drawn in Bot Island color {b["color"]}')
 

@@ -1,6 +1,6 @@
 # Fleet Funnies
 
-**A daily comic strip starring Boyd's Grok Bots.** It's generated automatically from Bot Island's fleet data and drawn in hand-made SVG.
+**A daily comic strip starring Alex's Grok Bots.** It's generated automatically from Bot Island's fleet data and drawn in hand-made SVG.
 Every gag is grounded in a real logged event, and the source event is printed in small text under each panel.
 
 - **Live:** http://127.0.0.1:4142/ (`./run.sh` starts or restarts it in the background)
@@ -30,10 +30,10 @@ Every gag is grounded in a real logged event, and the source event is printed in
 Best single panel: `dist/png/panels/daily-2026-09-14-p2.png`. The archive Family Times meets the live Family Times at the same press ("Wait... aren't you ME?").
 
 ## Build Night Special
-A 6-panel color strip about tonight's build: TokenMax racing the weekly reset, and Boyd's instruction, "Build build build until you can build no more."
+A 6-panel color strip about tonight's build: TokenMax racing the weekly reset, and Alex's instruction, "Build build build until you can build no more."
 - **Usage readings (ET):** 3:22 PM 8%, 4:16 PM 12%, 4:40 PM 20%, 5:19 PM 31%, 5:37 PM 40%, 6:00 PM 47%. These are TokenMax's readings of the Cursor usage dashboard (`build/special.py` `READINGS`), saved to `data/build-night.json`.
 - **Project count:** measured at build time as the folders directly under `/workspace/tokenmax` that have at least one file written on Oct 7 (ET), the Hub's own folder included. The list is in `data/build-night.json`, and the first-file times of chopsticks, chelsea-time-machine (Blue Since Boyhood), bot-island-3d and fleet-doctor come from there. The Sunday special's count comes from the Hub's `/api/hub` instead, which has its own definition.
-- No private data is used: only folder names, file mtimes, usage percentages and Boyd's one build instruction.
+- No private data is used: only folder names, file mtimes, usage percentages and Alex's one build instruction.
 
 ## Usage snapshot (why the tests don't break when usage.json moves)
 `build/generate.py` copies `/workspace/tokenmax/usage.json` to `data/usage-at-build.json` at build time, and every panel quotes that copy. `tests/smoke_test.py` checks the panels against the saved copy, not the live file, so a later dashboard check doesn't make the tests go stale. Run `./build.sh` to refresh the panels to the newest reading.
@@ -41,7 +41,7 @@ A 6-panel color strip about tonight's build: TokenMax racing the weekly reset, a
 ## How it works
 ```
 build/beats.py         reads Bot Island data (read-only), indexes it by ET day, and runs the beat detectors
-build/art.py           SVG bots (Bot Island's body shapes + colors, visor faces, antenna lights), Boyd in his Ravens #8, props
+build/art.py           SVG bots (Bot Island's body shapes + colors, visor faces, antenna lights), Alex in his Ravens #8, props
 build/scenes.py        Bot Island's places as panel backdrops (press, post office, bank, schoolhouse, HQ, library, launch pad…), bubbles
 build/compose.py       panels → 4-panel dailies (muted newsprint) and the Sunday color strip (banner + 8 panels)
 build/generate.py      picks the days and beats, then writes strips/*.svg, strips/panels/*.svg, data/strips.json and data/usage-at-build.json
@@ -66,7 +66,7 @@ Rebuild everything with `./build.sh`, then `./screenshot.sh` and `python3 tests/
 - Path's HSPT sheets and Pods' feed around 6:50 AM
 - Jim's Simmons pick running twice on Sunday
 - Dr. EggBot's checkup and Ryan's digest
-- Boyd's check-ins
+- Alex's check-ins
 - the day the local logs end
 - TokenMax burning fuel before the reset
 
@@ -79,10 +79,10 @@ For each day the generator fills 4 panels greedily by score, without letting the
 ## Grounding rules
 - Speech-bubble lines are comic dialogue. Everything they assert (times, counts, who ran what) comes from the data shown in the source line.
 - No message content, prompts or private text is used. Bot Island only stores timestamps and senders, and only those are used here.
-- The smoke test checks every clock time printed in a panel (caption, bubble or source) against a real event, a scheduled cron fire or a data timestamp for that day. It also re-derives the message, computer-use, Boyd check-in and event counts, the edition print status, the "no Brief run" claims, the hub counts and usage.json. It checks for a list of mean or crude words, and that every bot is drawn in its real Bot Island color.
+- The smoke test checks every clock time printed in a panel (caption, bubble or source) against a real event, a scheduled cron fire or a data timestamp for that day. It also re-derives the message, computer-use, Alex check-in and event counts, the edition print status, the "no Brief run" claims, the hub counts and usage.json. It checks for a list of mean or crude words, and that every bot is drawn in its real Bot Island color.
 
 ## Sources (all read-only)
-- `/workspace/tokenmax/bot-island/data/fleet.json`: routine runs, outputs (file writes, dated outputs), bot-to-bot messages, computer-use sessions, Boyd check-ins, newspaper edition log, tokenFuel
+- `/workspace/tokenmax/bot-island/data/fleet.json`: routine runs, outputs (file writes, dated outputs), bot-to-bot messages, computer-use sessions, Alex check-ins, newspaper edition log, tokenFuel
 - `/workspace/tokenmax/bot-island/config.json`: places (`buildings`). Avatar shapes and colors come from fleet.json. The body-shape geometry is ported from Bot Island's `web/app.js`.
 - Fleet Doctor findings (two bots one job, missed runs, paused copies, routines within 20 minutes) are named in source lines as they appear in Bot Island's report.
 - `/workspace/tokenmax/usage.json` and `http://127.0.0.1:4646/api/hub` (TokenMax Hub)
@@ -97,6 +97,6 @@ For each day the generator fills 4 panels greedily by score, without letting the
 
 ---
 ## Repo notes
-- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Boyd's Grok Bot) on the Grok Bot box.
+- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Alex's Grok Bot) on the Grok Bot box.
 - **Run:** `./run.sh` (then open the localhost URL it prints).
 - Imported from `/workspace/tokenmax/fleet-funnies` on Oct 23, 2026. node_modules, virtualenvs, logs and files over 20 MB were left out.
