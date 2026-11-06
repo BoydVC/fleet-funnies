@@ -97,13 +97,13 @@
    "lastMtime": "2026-10-07T16:57:28-04:00"
   },
   {
-   "name": "boyd-wall",
+   "name": "family-wall",
    "title": "\ud83d\udef0\ufe0f Alex Wall: mission control for a TV or second monitor",
    "pitch": "A 1920\u00d71080 dark \"mission control\" dashboard for Alex: SpaceX/Starship/Starlink launches with live T-minus countdowns, a Sports Desk for the Ravens, Terps, Chelsea and Orioles, Lakeside weather with the week ahead, and a fleet strip showing every Grok Bot plus the TokenMax fuel gauge.",
    "ready": true,
    "hasReadme": true,
    "snapshots": [
-    "dist/boyd-wall-snapshot.html"
+    "dist/family-wall-snapshot.html"
    ],
    "snapshotBytes": 1672572,
    "port": 4848,
@@ -646,10 +646,10 @@
     "build/p02_bookmark-atlas/shot0.mp4",
     "build/p02_bookmark-atlas/shot1.mp4",
     "build/p02_bookmark-atlas/shot2.mp4",
-    "build/p03_boyd-wall/segment.mp4",
-    "build/p03_boyd-wall/shot0.mp4",
-    "build/p03_boyd-wall/shot1.mp4",
-    "build/p03_boyd-wall/shot2.mp4",
+    "build/p03_family-wall/segment.mp4",
+    "build/p03_family-wall/shot0.mp4",
+    "build/p03_family-wall/shot1.mp4",
+    "build/p03_family-wall/shot2.mp4",
     "build/seg00_title.mp4"
    ],
    "counts": {
@@ -714,7 +714,7 @@
     }
    },
    {
-    "project": "boyd-wall",
+    "project": "family-wall",
     "buckets": {
      "16": 7,
      "18": 24,
@@ -1062,17 +1062,17 @@
     "what": "earliest surviving screenshot (13 total)"
    },
    {
-    "project": "boyd-wall",
+    "project": "family-wall",
     "at": "2026-10-07T16:34:12-04:00",
     "what": "README written (last edit)"
    },
    {
-    "project": "boyd-wall",
+    "project": "family-wall",
     "at": "2026-10-07T16:34:16-04:00",
     "what": "earliest surviving screenshot (10 total)"
    },
    {
-    "project": "boyd-wall",
+    "project": "family-wall",
     "at": "2026-10-07T16:34:39-04:00",
     "what": "offline snapshot exported (last)"
    },
