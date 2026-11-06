@@ -90,7 +90,7 @@ for s in S:
         if m: check(F.editions[day]['print'] == m.group(1), f'{tag}: edition print status')
         if 'No run logged' in src: check(not any(r['bot'] == 'Brief' for r in F.runs.get(day, [])), f'{tag}: Brief really has no run')
         m = re.search(r'(\d+) messages from Alex', src)
-        if m: check(int(m.group(1)) == len(F.boyd.get(day, [])), f'{tag}: Alex message count')
+        if m: check(int(m.group(1)) == len(F.alex.get(day, [])), f'{tag}: Alex message count')
         m = re.search(r'(\d+) logged events', src)
         if m: check(int(m.group(1)) == F.total[day], f'{tag}: event total')
         m = re.search(r'used_pct (\d+)', src)

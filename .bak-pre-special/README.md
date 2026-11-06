@@ -14,8 +14,8 @@ Every gag is grounded in a real logged event, and the source event is printed in
 ## The strips (11)
 | Date | Title | Beats the generator picked | PNG |
 |---|---|---|---|
-| Thursday, August 20, 2026 | **Inbox Zero (Not Today)** | day-one, msg-storm, boyd-visits, busiest | `dist/png/daily-2026-08-20.png` |
-| Tuesday, September 8, 2026 | **Passing the Torch** | pam-scan, handoff-jim, boyd-visits, night | `dist/png/daily-2026-09-08.png` |
+| Thursday, August 20, 2026 | **Inbox Zero (Not Today)** | day-one, msg-storm, alex-visits, busiest | `dist/png/daily-2026-08-20.png` |
+| Tuesday, September 8, 2026 | **Passing the Torch** | pam-scan, handoff-jim, alex-visits, night | `dist/png/daily-2026-09-08.png` |
 | Wednesday, September 9, 2026 | **The New Kid at the Post Office** | handoff-brief, tutor-screens, paused-copies, msg-storm | `dist/png/daily-2026-09-09.png` |
 | Friday, September 11, 2026 | **Brief Sleeps In** | long-run, brief-overslept, msg-storm | `dist/png/daily-2026-09-11.png` |
 | Sunday, September 13, 2026 | **Fifth Pick, Take Two** | long-run, simmons-twice, night | `dist/png/daily-2026-09-13.png` |
